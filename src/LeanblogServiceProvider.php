@@ -1,6 +1,6 @@
 <?php
 
-namespace Leancore\Leanblog;
+namespace Merfiduke\Leanblog;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -13,7 +13,7 @@ class LeanblogServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->make('Leancore\Leanblog\PostController');
+        $this->app->make('Merfiduke\Leanblog\PostController');
         $this->loadViewsFrom(__DIR__.'/views', 'leanblog');
     }
 

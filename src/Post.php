@@ -1,6 +1,6 @@
 <?php
 
-namespace Leancore\Leanblog;
+namespace Merfiduke\Leanblog;
 
 use Illuminate\Database\Eloquent\Model;
 

@@ -1,5 +1,5 @@
 {
-    "name": "leancore/leanblog",
+    "name": "merfiduke/leanblog",
     "description": "Blog by leancore",
     "license": "MIT",
     "minimum-stability": "dev",
@@ -8,13 +8,13 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Leancore\\Leanblog\\LeanblogServiceProvider"
+                "Merfiduke\\Leanblog\\LeanblogServiceProvider"
             ]
         }
     },
     "autoload": {
         "psr-4": {
-            "Leancore\\Leanblog\\": "src/"
+            "Merfiduke\\Leanblog\\": "src/"
         }
     }
 }
