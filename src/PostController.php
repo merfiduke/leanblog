@@ -3,7 +3,6 @@
 namespace Merfiduke\Leanblog;
 
 use Illuminate\Http\Request;
-/* use Leancore\Leanblog\Post; */
 use App\Http\Controllers\Controller;
 class PostController extends Controller
 {
@@ -15,7 +14,7 @@ class PostController extends Controller
      */
     public function index()
     {
-        return view('leanblog::posts', ['posts'=>Post::all()]);
+        return view('leanblog::posts', ['posts'=> Leanblog::all()]);
     }
 
     /**

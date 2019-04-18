@@ -9,7 +9,11 @@
         "laravel": {
             "providers": [
                 "Merfiduke\\Leanblog\\LeanblogServiceProvider"
-            ]
+            ],
+
+            "aliases": {
+                "Leanblog": "Merfiduke\\Leanblog\\Facade"
+            }
         }
     },
     "autoload": {
