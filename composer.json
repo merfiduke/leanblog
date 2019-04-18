@@ -1,0 +1,20 @@
+{
+    "name": "leancore/leanblog",
+    "description": "Blog by leancore",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Leancore\\Leanblog\\LeanblogServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Leancore\\Leanblog\\": "src/"
+        }
+    }
+}
